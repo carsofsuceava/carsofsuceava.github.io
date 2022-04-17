@@ -1,16 +1,51 @@
 body {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 .contact-title {
   margin-top: 50px;
   color: #fff;
   text-transform: uppercase;
-  transition: all 4s ease-in-out;
+  text-align: center;
 }
 
+.circle {
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  height: 60px;
+  width: 60px;
+  background-color: #834083;
+  border-radius: 50%;
+  display: inline-block;
+  position: flex;
+}
+
+.align {
+  text-align: center;
+}
+
+#resizeico {
+  height: 56px;
+  width: 56px;
+  margin-top: 2px;
+}
+
+.circle:hover {
+  cursor: pointer;
+  background-color: #997eb8;
+  transition: all 0.2s ease-out;
+}
+
+.circle:not(:hover) {
+  cursor: pointer;
+  background-color: #834083;
+  transition: all 0.2s ease-in;
+}
+
+/* 
 form {
   margin-top: 30px;
   transition: all 4s ease-in-out;
@@ -45,5 +80,4 @@ form .submit {
 
 form .submit:hover {
   background-color: #f44336;
-  cursor: pointer;
-}
+  cursor: pointer; */
