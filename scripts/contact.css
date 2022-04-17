@@ -10,14 +10,61 @@ body {
   text-align: center;
 }
 
+svg {
+  display: block;
+  font: 10.5em "Montserrat";
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 4.5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5.4s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+  stroke: #848484;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+  stroke: #3d3d3d;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+  stroke: #848484;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+  stroke: #bbbbbb;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5) {
+  stroke: #ffffff;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}
+
 .circle {
-  margin-top: 30px;
   margin-right: 40px;
   margin-left: 40px;
   margin-bottom: 10px;
   height: 60px;
   width: 60px;
-  background-color: #834083;
+  background-color: #5830a8;
   border-radius: 50%;
   display: inline-block;
   position: flex;
@@ -41,10 +88,62 @@ body {
 
 .circle:not(:hover) {
   cursor: pointer;
-  background-color: #834083;
+  background-color: #5830a8;
   transition: all 0.2s ease-in;
 }
 
+.aligncontact {
+  margin-top: 35px;
+}
+
+#btn-form {
+  margin-top: 25px;
+  margin-bottom: 45px;
+  width: 165px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #5830a8;
+  color: #fff;
+  font-size: 18px;
+}
+
+#btn-form:hover {
+  cursor: pointer;
+  background-color: rgb(153, 126, 184);
+  transition: all 0.2s ease-out;
+}
+
+#btn-form:not(:hover) {
+  cursor: pointer;
+  background-color: #5830a8;
+  transition: all 0.165s ease-in;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-links {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .circle {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  svg {
+    width: 400;
+    transition: all 0.2s ease-in;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  svg {
+    transition: all 0.2s ease-out;
+  }
+}
 /* 
 form {
   margin-top: 30px;

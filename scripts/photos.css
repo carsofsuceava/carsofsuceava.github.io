@@ -288,7 +288,7 @@ html {
 }
 
 .footer-heading a:hover {
-  color: #994d99;
+  color: #5830a8;
   transition: 0.165s ease-out;
 }
 
@@ -322,7 +322,7 @@ html {
   border-radius: 4px;
   outline: none;
   border: none;
-  background-color: #834083;
+  background-color: #5830a8;
   color: #fff;
   font-size: 13px;
 }
@@ -335,7 +335,7 @@ html {
 
 #footer-email-btn:not(:hover) {
   cursor: pointer;
-  background-color: #834083;
+  background-color: #5830a8;
   transition: all 0.165s ease-in;
 }
 
