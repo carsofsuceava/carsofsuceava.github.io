@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>Contact</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/scripts/default.css" />
+    <link rel="stylesheet" href="/scripts/contact.css" />
+    <link rel="icon" type="image/png" href="/assets/logo.png" />
+  </head>
+
+  <body class="bgcolour">
+    <nav>
+      <div><img class="logo" src="/assets/wm.png" width="150px" alt="" /></div>
+      <ul class="nav-links">
+        <li><a class="font1no" href="index.html">Pagina principala</a></li>
+        <li><a class="font1no" href="poze.html">Poze</a></li>
+        <li><a class="font1" href="contact.html">Contact</a></li>
+        <li><a class="font1no" href="about.html">Despre</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <script src="/scripts/nav.js"></script>
+
+    <div class="contact-title">
+      <a class="font2"> Contact </a>
+    </div>
+
+    <div class="contact-form">
+      <form id="contact-form" method="post" action="cotnactform.php">
+        <input name="name" type="text" class="form-control" placeholder="Nume" required>
+        <br>
+        <input name="email" type="email" class="form-control" placeholder="Email" required>
+        <br>
+        <textarea name="message" class="form-control" placeholder="Mesaj" row="4" required></textarea><br>
+
+        <input type="submit" class="form-control submit" value="Trimite">
+      </form>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-heading footer-1">
+          <h2 class="font4">Social media</h2>
+          <a class="font3" href="https://instagram.com/carsofsuceava">Instagram</a>
+          <a class="font3" href="https://fb.me/carsofsuceava">Facebook</a>
+          <a class="font3" href="https://www.tiktok.com/@carsofsuceava?lang=ro-RO">TikTok</a>
+          <a class="font3" href="https://www.youtube.com/channel/UCJ7JKAd20uJvCTZX94j_ZyQ">YouTube</a>
+        </div>
+        <div class="footer-heading footer-2">
+          <h2 class="font4">Contact</h2>
+          <a class="font3" href="about.html">Click aici</a>
+          <a class="font3" href="about.html">Grup WhatsApp</a>
+          <a class="font3" href="mailto:carsofsuceava123@gmail.com">Trimite un EMail</a>
+        </div>
+        <div class="footer-email-form">
+          <h2 class="font4">Fii la curent cu următoarele evenimente</h2>
+          <input type="email" placeholder="Adaugă adresa ta de EMail aici" id="footer-email">
+          <input type="submit" value="Trimite" id="footer-email-btn">
+        </div>
+  </body>
+</html>
