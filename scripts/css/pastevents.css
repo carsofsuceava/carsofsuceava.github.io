@@ -1,0 +1,103 @@
+.events img {
+  height: 200px;
+  width: 450px;
+}
+
+.afisphoto {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.afisphoto a {
+  text-decoration: none;
+}
+
+.back {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.back a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 580px) {
+  .selectorev a {
+    margin-left: 62px;
+    margin-right: 62px;
+  }
+  .events img {
+    width: 350px;
+    height: 150px;
+    transition: all 0.3s ease;
+  }
+  .gradient-border {
+    height: 150px;
+    width: 350px;
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (min-width: 581px) {
+  .events img {
+    transition: all 0.3s ease;
+  }
+  .gradient-border {
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .selectorev a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .events img {
+    width: 300px;
+    height: 130px;
+    transition: all 0.3s ease;
+  }
+  .gradient-border {
+    height: 130px;
+    width: 300px;
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .events img {
+    transition: all 0.3s ease;
+  }
+  .gradient-border {
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .selectorev a {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .events img {
+    width: 265px;
+    height: 115px;
+    transition: all 0.3s ease;
+  }
+  .gradient-border {
+    height: 115px;
+    width: 265px;
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (min-width: 316px) {
+  .events img {
+    transition: all 0.3s ease;
+  }
+  .gradient-border {
+    transition: all 0.3s ease;
+  }
+}
