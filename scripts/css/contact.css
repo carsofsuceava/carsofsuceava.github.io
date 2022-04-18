@@ -126,6 +126,13 @@ svg {
   .nav-links {
     height: 600px;
   }
+
+  @supports (backdrop-filter: blur(0.15rem)) {
+    .nav-links {
+      background: rgba(10, 10, 10, 0.829);
+      backdrop-filter: blur(0.8rem);
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {
