@@ -122,9 +122,36 @@ svg {
   transition: all 0.165s ease-in;
 }
 
+#btn-form-footer {
+  margin-bottom: 45px;
+  width: 212px;
+  height: 27.5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 1px;
+  background-color: #5830a8;
+  color: #fff;
+  font-size: 18px;
+}
+
+#btn-form-footer:hover {
+  cursor: pointer;
+  background-color: rgb(153, 126, 184);
+  transition: all 0.2s ease-out;
+}
+
+#btn-form-footer:not(:hover) {
+  cursor: pointer;
+  background-color: #5830a8;
+  transition: all 0.165s ease-in;
+}
+
 @media screen and (max-width: 800px) {
   .nav-links {
-    height: 600px;
+    height: 800px;
   }
 
   @supports (backdrop-filter: blur(0.15rem)) {

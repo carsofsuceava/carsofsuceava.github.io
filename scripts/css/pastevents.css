@@ -8,6 +8,14 @@
   margin-bottom: 40px;
 }
 
+.aligncens {
+  font-size: 14px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-bottom: -2px;
+}
+
 .afisphoto a {
   text-decoration: none;
 }
@@ -22,6 +30,112 @@
 .back a {
   text-decoration: none;
   color: #fff;
+}
+
+.container-drop {
+  text-align: center;
+  margin: 0 0 0 0;
+  margin-bottom: 20px;
+  right: 0;
+}
+
+.dropdown {
+  display: block;
+  position: relative;
+  margin: auto;
+  z-index: 11;
+  right: 0;
+}
+
+.dropdown button {
+  background-color: #5830a8;
+  border-color: #2d1e4b;
+}
+
+.dropdown button:hover {
+  background-color: #7748d4;
+  border-color: #2d1e4b;
+  transition: all 0.15s ease-in;
+}
+
+.dropdown button:not(:hover) {
+  transition: all 0.15s ease-out;
+}
+
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover {
+  color: #fff;
+  background-color: #7748d4;
+  border-color: #2d1e4b;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #5830a8;
+  border-color: #2d1e4b;
+}
+
+body {
+  line-height: normal;
+}
+
+#btn-form {
+  margin-top: 25px;
+  margin-bottom: 45px;
+  width: 165px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #5830a8;
+  color: #fff;
+  font-size: 18px;
+}
+
+#btn-form:hover {
+  cursor: pointer;
+  background-color: rgb(153, 126, 184);
+  transition: all 0.2s ease-out;
+}
+
+#btn-form:not(:hover) {
+  cursor: pointer;
+  background-color: #5830a8;
+  transition: all 0.165s ease-in;
+}
+
+#btn-form-footer {
+  margin-bottom: 45px;
+  width: 212px;
+  height: 27.5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 1px;
+  background-color: #5830a8;
+  color: #fff;
+  font-size: 18px;
+}
+
+#btn-form-footer:hover {
+  cursor: pointer;
+  background-color: rgb(153, 126, 184);
+  transition: all 0.2s ease-out;
+}
+
+#btn-form-footer:not(:hover) {
+  cursor: pointer;
+  background-color: #5830a8;
+  transition: all 0.165s ease-in;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-links {
+    height: 900px;
+  }
 }
 
 @media screen and (max-width: 580px) {

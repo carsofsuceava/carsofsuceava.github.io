@@ -14,6 +14,10 @@ for (var i = 0; i < images.length; i++) {
 }
 var span = document.getElementsByClassName("close")[0];
 
+modal.addEventListener("click", function () {
+  this.style.display = "none";
+});
+
 span.onclick = function () {
   modal.style.display = "none";
 };

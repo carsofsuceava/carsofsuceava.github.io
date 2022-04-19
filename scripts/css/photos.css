@@ -352,6 +352,58 @@ html {
   transition: all 0.165s ease-in;
 }
 
+#btn-form {
+  margin-top: 25px;
+  margin-bottom: 45px;
+  width: 165px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #5830a8;
+  color: #fff;
+  font-size: 18px;
+}
+
+#btn-form:hover {
+  cursor: pointer;
+  background-color: rgb(153, 126, 184);
+  transition: all 0.2s ease-out;
+}
+
+#btn-form:not(:hover) {
+  cursor: pointer;
+  background-color: #5830a8;
+  transition: all 0.165s ease-in;
+}
+
+#btn-form-footer {
+  margin-bottom: 45px;
+  width: 212px;
+  height: 27.5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 1px;
+  background-color: #5830a8;
+  color: #fff;
+  font-size: 18px;
+}
+
+#btn-form-footer:hover {
+  cursor: pointer;
+  background-color: rgb(153, 126, 184);
+  transition: all 0.2s ease-out;
+}
+
+#btn-form-footer:not(:hover) {
+  cursor: pointer;
+  background-color: #5830a8;
+  transition: all 0.165s ease-in;
+}
+
 @media screen and (max-width: 500px) {
   .footer {
     height: 500px;
@@ -432,6 +484,7 @@ html {
   height: 100%;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.9);
+  overflow: auto;
 }
 
 .modal-content {
