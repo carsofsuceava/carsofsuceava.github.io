@@ -7,6 +7,7 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
       <link rel="stylesheet" href="/scripts/css/default.css" />
       <link rel="stylesheet" href="/scripts/css/photos.css" />
+      <link rel="stylesheet" href="/scripts/css/events.css" />
       <link rel="stylesheet" href="/scripts/css/index.css" />
       <link rel="icon" type="image/png" href="/assets/logo.png" />
       <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -27,15 +28,20 @@
 
     <body class="bgcolour">
       <!-- NAV BAR -->
+
       <nav id="wrapper">
         <a href="/index.html"
           ><img class="logo" src="/assets/wm.png" width="150px" alt=""
         /></a>
         <ul class="nav-links">
-          <li><a class="font1" href="/index.html">Pagina principala</a></li>
-          <li><a class="font1no" href="/events.html">Evenimente</a></li>
-          <li><a class="font1no" href="/poze.html">Poze</a></li>
-          <li><a class="font1no" href="/contact.html">Contact</a></li>
+          <li>
+            <a class="OpenSans-500" href="/index.html">Pagina principala</a>
+          </li>
+          <li>
+            <a class="OpenSans-500no" href="/events.html">Evenimente</a>
+          </li>
+          <li><a class="OpenSans-500no" href="/poze.html">Poze</a></li>
+          <li><a class="OpenSans-500no" href="/contact.html">Contact</a></li>
         </ul>
         <div class="burger">
           <div class="line1"></div>
@@ -45,87 +51,131 @@
       </nav>
 
       <!-- CONTENTS -->
-      <!-- <div class="container">
-      <div class="row">
-      <div class="col-1">
-          <h2>O comunitate</h2>
-          <h3>a pasionatilor de masini</h3>
-          <p>din Suceava</p>
+      <div class="container">
+        <div class="text Poppins-700"></div>
+        <div class="scroll">
+          <div class="chevron"></div>
+          <div class="chevron"></div>
+          <div class="chevron"></div>
+          <span class="text-scroll">Scroll down</span>
+        </div>
       </div>
-       <div class="col-2">
-        
-      </div> 
-    </div>
-    </div> -->
 
-      <div class="font2 textalign1">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-        accumsan justo mi, consequat laoreet odio finibus ut. Maecenas vitae
-        elit in magna pulvinar interdum eget a metus. Nunc hendrerit lacus nibh,
-        ac vehicula est lobortis finibus. Mauris feugiat nisl a interdum
-        accumsan. Pellentesque habitant morbi tristique senectus et netus et
-        malesuada fames ac turpis egestas. Fusce purus libero, ultricies at
-        congue non, commodo eu purus. Integer vel arcu ac dui egestas tempor.
-        Phasellus posuere quam purus, ac molestie orci semper at. Etiam sodales
-        arcu in eros ullamcorper, ac placerat orci ornare. Vestibulum a
-        consequat ligula. Sed laoreet convallis mi, eget condimentum dolor
-        viverra vitae. Ut gravida malesuada feugiat.
+      <div class="videos">
+        <video autoplay muted loop id="myVideoMob">
+          <source src="/videos/VID_238560109_012213_795.mp4" type="video/mp4" />
+          Your browser does not support HTML5 video.
+        </video>
+        <video autoplay muted loop id="myVideoDesk">
+          <source src="/videos/20190526_153301_1.mp4" type="video/mp4" />
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+
+      <div class="evenimente">
+        <h1 class="Montserrat-600 aligncen">
+          Vezi mai jos următorul eveniment auto din județ
+        </h1>
+
+        <div class="events gradient-border">
+          <img src="/events/campulung2022.jpg" alt="" /> <br />
+        </div>
+
+        <div class="textevent">
+          <p class="Poppins-700">
+            CAR MEET Câmpulung Moldovenesc <br />
+            23-25 IUNIE 2022
+          </p>
+          <p class="Poppins-200">Mai multe detalii: ÎN CURÂND</p>
+        </div>
+      </div>
+      <div class="to-events">
+        <a class="Montserrat-400" href="/events.html"
+          >Pentru a vedea mai multe evenimente viitoare, dar și alte evenimente
+          ce au fost în trecut, apasă aici!</a
+        >
+      </div>
+
+      <div class="send-pics aligncen">
+        <p class="info Poppins-600" style="font-size: 20.5px">
+          Am niște poze, ce fac?
+        </p>
+        <br />
+        <span class="circle">
+          <a href="mailto:carsofsuceava123@gmail.com" target="_blank ">
+            <img id="resizeico" src="/assets/icons/mailico.svg" />
+          </a> </span
+        ><br />
+        <p class="info Montserrat-600">
+          Dacă ai vreo poză/videoclip cu vreo mașină de prin Suceava și vrei să
+          apară pe contul de Instagram, o poți face pe mail mai sus!
+        </p>
+        <br />
+        <p class="info Montserrat-400" style="font-size: 12px">
+          De asemenea, fiind un site nou, dacă observi vreun bug la acesta,
+          aștept un mesaj cu el și îl voi rezolva în cel mai scurt timp posibil.
+        </p>
       </div>
 
       <!-- FOOTER -->
       <div class="footer-container">
         <div class="footer">
           <div class="footer-heading footer-1">
-            <h2 class="font4">Social media</h2>
+            <h2 class="Poppins-700">Social media</h2>
             <a
-              class="font3"
+              class="Poppins-200"
               href="https://instagram.com/carsofsuceava"
               target="_blank"
               >Instagram</a
             >
-            <a class="font3" href="https://fb.me/carsofsuceava" target="_blank"
+            <a
+              class="Poppins-200"
+              href="https://fb.me/carsofsuceava"
+              target="_blank"
               >Facebook</a
             >
             <a
-              class="font3"
+              class="Poppins-200"
               href="https://www.tiktok.com/@carsofsuceava?lang=ro-RO"
               target="_blank"
               >TikTok</a
             >
             <a
-              class="font3"
+              class="Poppins-200"
               href="https://www.youtube.com/channel/UCJ7JKAd20uJvCTZX94j_ZyQ"
               target="_blank"
               >YouTube</a
             >
           </div>
           <div class="footer-heading footer-2">
-            <h2 class="font4">Contact</h2>
-            <a class="font3" href="/about.html" target="_blank">Click aici</a>
+            <h2 class="Poppins-700">Contact</h2>
+
             <a
-              class="font3"
+              class="Poppins-200"
               href="https://forms.gle/27rsCTv1Hj2trQRW9"
               target="_blank"
               >Grup WhatsApp</a
             >
             <a
-              class="font3"
+              class="Poppins-200"
               href="mailto:carsofsuceava123@gmail.com"
               target="_blank"
               >Trimite un EMail</a
             >
           </div>
           <div class="footer-email-form">
-            <h2 class="font4">Fii la curent cu următoarele evenimente</h2>
+            <h2 class="Poppins-700">Fii la curent cu următoarele evenimente</h2>
             <a href="https://forms.gle/LxhciQz8bvAvaNoz5" target="_blank"
               ><input
+                class="Poppins-200"
                 type="submit"
-                value="Completeaza formularul"
+                value="Completează formularul"
                 id="btn-form-footer"
             /></a>
           </div>
         </div>
       </div>
+      <script src="/scripts/js/index.js"></script>
       <script src="/scripts/js/nav.js"></script>
     </body>
   </html>

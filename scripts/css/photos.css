@@ -1,43 +1,57 @@
-/* FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@1,700&family=Raleway:wght@300;400;500&display=swap");
-.font1 {
-  font-family: "Montserrat", sans-serif;
-  font-style: italic;
-  color: #ffffff;
-  font-weight: 700;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=Open+Sans:wght@500;600&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,700&display=swap");
+.Poppins-200 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: white;
 }
 
-.font1no {
-  font-family: "Montserrat", sans-serif;
-  font-style: italic;
-  color: #8d8d8d;
-  font-weight: 700;
+.Poppins-300 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: white;
 }
 
-.font2 {
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
-  font-weight: 700;
+.Poppins-600 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
 }
 
-.font3 {
-  font-family: "Raleway", sans-serif;
-  color: #ffffff;
+.Poppins-600no {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #7c7c7cef;
+}
+
+.Poppins-700 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.Montserrat-500 {
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  color: white;
 }
 
-.font4 {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-weight: 700;
+.Montserrat-500no {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #7c7c7cef;
 }
 
-/* TEXT ALIGNMENTS */
-/* .textalign1 {
-  text-align: justify;
-  margin-top: 20px;
-  margin-left: 15px;
-} */
+.OpenSans-500 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.OpenSans-500no {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #7c7c7cef;
+}
 
 .textalign2 {
   text-align: left;
@@ -60,19 +74,23 @@
 /* SCROLL BAR */
 ::-webkit-scrollbar {
   width: 12px;
+  z-index: 10;
 }
 
 ::-webkit-scrollbar-track {
   background-color: rgb(10, 10, 10);
+  z-index: 10;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #4d4d4def;
   border-radius: 100px;
+  z-index: 10;
 }
 
 * {
   scrollbar-color: #4d4d4def rgb(10, 10, 10);
+  z-index: 10;
 }
 
 /* NAVIGATION BAR */
@@ -270,7 +288,7 @@ html {
 }
 .footer-container {
   background-color: rgb(10, 10, 10);
-  padding: 4rem 0 4rem 0;
+  padding: 6rem 0 6rem 0;
 }
 
 .footer {
@@ -389,7 +407,7 @@ html {
   padding-top: 1px;
   background-color: #5830a8;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #btn-form-footer:hover {
