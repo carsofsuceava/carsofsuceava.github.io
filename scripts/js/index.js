@@ -61,6 +61,7 @@ const phrases = [
   "O comunitate",
   "de pasionați",
   "din tot județul Suceava",
+  "și nu numai,",
   "încă din 2019.",
 ];
 
