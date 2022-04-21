@@ -395,7 +395,30 @@ html {
   transition: all 0.165s ease-in;
 }
 
-@media screen and (max-width: 500px) {
+.copyright {
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright p {
+  color: var(--light-grey);
+}
+
+.footer-logo {
+  height: 50px;
+  width: 100px;
+
+  background-image: url("/assets/wm.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+@media screen and (max-width: 530px) {
   .footer {
     height: 500px;
     justify-content: left;
