@@ -57,6 +57,9 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
+  "Mașinile Sucevei",
+  "vă urează",
+  "un paște fericit!",
   "Mașinile Sucevei.",
   "O comunitate",
   "de pasionați",
