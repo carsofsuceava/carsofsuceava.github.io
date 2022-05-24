@@ -19,6 +19,7 @@
   align-items: flex-start;
   position: absolute;
   margin-top: 170px;
+  z-index: 10002;
 }
 
 .container .text {
@@ -26,6 +27,7 @@
   justify-content: center;
   align-items: center;
   position: absolute;
+  z-index: 10002;
 }
 
 .text {
@@ -35,6 +37,7 @@
   display: contents;
   justify-content: center;
   align-items: center;
+  z-index: 10002;
 }
 
 .text a {
@@ -286,11 +289,26 @@ a {
   margin-top: 60px;
 }
 
-.container .scroll {
-  margin-top: 225px;
+.alichev {
+  display: block;
+  margin-top: 350px;
+  position: absolute;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scroll .text-scroll {
+  display: block;
+  margin-top: 425px;
   color: white;
   position: absolute;
-  margin-left: 25px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .chevron {
@@ -299,6 +317,10 @@ a {
   width: 28px;
   height: 8px;
   opacity: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   transform: scale3d(0.5, 0.5, 0.5);
   animation: move 3s ease-out infinite;
 }
@@ -378,6 +400,10 @@ a {
     display: none;
     transition: all 0.3s ease;
   }
+  .scroll .text-scroll {
+    display: none;
+    transition: all 0.3s ease;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -439,6 +465,11 @@ a {
     transition: all 0.4s ease;
   }
   .text-scroll {
+    display: block;
+    transition: all 0.4s ease;
+  }
+
+  .scroll .text-scroll {
     display: block;
     transition: all 0.4s ease;
   }

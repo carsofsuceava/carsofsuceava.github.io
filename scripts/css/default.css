@@ -27,6 +27,7 @@
 .Poppins-700 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+  z-index: 10002;
   color: white;
 }
 
@@ -231,13 +232,13 @@ html {
     transform: translateX(100%);
     transition: transform 0.5s ease-out;
     width: 100%;
-    z-index: 2;
+    z-index: 100000;
   }
 
   .nav-links li {
     margin-top: 50px;
     opacity: 0;
-    z-index: 2;
+    z-index: 100000;
   }
 
   .nav-links a {
