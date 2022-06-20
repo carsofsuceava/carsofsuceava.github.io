@@ -169,6 +169,33 @@ html {
   overflow-x: hidden;
 }
 
+#buttons {
+  margin-bottom: 45px;
+  width: 160px;
+  height: 27.5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 1px;
+  background-color: #5830a8;
+  color: #fff;
+  font-size: 16px;
+}
+
+#buttons:hover {
+  cursor: pointer;
+  background-color: rgb(153, 126, 184);
+  transition: all 0.2s ease-out;
+}
+
+#buttons:not(:hover) {
+  cursor: pointer;
+  background-color: #5830a8;
+  transition: all 0.165s ease-in;
+}
+
 @media screen and (max-width: 1400px) {
   .nav-links {
     width: 38%;
