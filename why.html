@@ -1,13 +1,15 @@
-<html>
+<html lang="en">
   <head>
-    <title>Contact</title>
+    <title>Evenimentele trecute</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width = device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <link rel="stylesheet" href="/scripts/css/default.css" />
     <link rel="stylesheet" href="/scripts/css/photos.css" />
-    <link rel="stylesheet" href="/scripts/css/contact.css" />
     <link rel="stylesheet" href="/scripts/css/events.css" />
+    <link rel="stylesheet" href="/scripts/css/pastevents.css" />
+    <link rel="stylesheet" href="/scripts/css/dropdown.css" />
     <link rel="icon" type="image/png" href="/assets/logo.png" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -26,80 +28,48 @@
   </head>
 
   <body class="bgcolour">
-    <nav>
-      <a href="/mainmenu.html"
+    <!-- NAV BAR -->
+    <nav id="wrapper">
+      <a
         ><img class="logo" src="/assets/wm.png" width="150px" alt=""
       /></a>
-      <ul class="nav-links">
-        <li>
-          <a class="OpenSans-500no" href="/mainmenu.html">Pagina principală</a>
-        </li>
-        <li><a class="OpenSans-500no" href="/events.html">Evenimente</a></li>
-        <li><a class="OpenSans-500no" href="/poze.html">Poze</a></li>
-        <li><a class="OpenSans-500" href="/contact.html">Contact</a></li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
     </nav>
-    <script src="/scripts/js/nav.js"></script>
+
+    <!-- CONTENTS -->
 
     <div class="textevent" style="margin-bottom: -30px;">
       <p style="padding-top: 110px; padding-bottom: -200px;"></p>
       <a class="Poppins-600" href="/index.html" style="text-decoration: underline; color: white">Inapoi la meniul cu anuntul</a>
     </div>
 
-    <svg viewBox="0 0 600 300" style="padding-top: 20px">
-      <symbol id="s-text">
-        <text text-anchor="middle" x="50%" y="50%" dy=".35em">CONTACT</text>
-      </symbol>
-      <use class="text" xlink:href="#s-text"></use>
-      <use class="text" xlink:href="#s-text"></use>
-      <use class="text" xlink:href="#s-text"></use>
-      <use class="text" xlink:href="#s-text"></use>
-      <use class="text" xlink:href="#s-text"></use>
-    </svg>
+    <div class="selectorev"style="padding-top: 20px"></div>
 
-    <div class="align">
-      <span class="circle">
-        <a href="https://fb.com/carsofsuceava " target="_blank ">
-          <img id="resizeico" src="/assets/icons/fbico.svg" />
-        </a>
-      </span>
-      <span class="circle">
-        <a href="https://instagram.com/carsofsuceava" target="_blank ">
-          <img id="resizeico" src="/assets/icons/instaico.svg" />
-        </a>
-      </span>
-      <span class="circle">
-        <a href="mailto:carsofsuceava123@gmail.com" target="_blank ">
-          <img id="resizeico" src="/assets/icons/mailico.svg" />
-        </a>
-      </span>
-      <h2 class="Poppins-700 aligncontact">
-        Vrei să faci parte dintr-un grup de WhatsApp?<br />
-        <h2 class="Montserrat-500" style="font-size: 18px">
-          Lasa un mesaj pentru grup-ul de WhatsApp!
-        </h2>
-      </h2>
-      <a href="https://instagram.com/carsofsuceava" target="_blank"
-        ><input
-          class="Poppins-300"
-          type="submit"
-          value="Catre pagina"
-          id="btn-form"
-      /></a>
-      <h2
-        class="Poppins-200 aligncontact"
-        style="font-size: 12px; padding-bottom: 30px; margin-top: -40px"
-      >
-        Acest grup este destinat special celor din Suceava.
-      </h2>
+    <div class="textevent">
+      <p class="Poppins-700" style="font-size: 24px">
+        De ce? <br />
+      </p>
+      
+      <br>
+      <p class="info Poppins-300">
+        <a class="Montserrat-600" style="font-size: 16px;">Inițial am creat acest site cu scopul de a adăuga poze și evenimente
+        ce ar fi avut loc în Suceava, pentru a vă fi vouă mai ușor să vedeți toate evenimentele următoare, dar și cele precedente, 
+        într-un singur loc, dar și ca un proiect personal pentru a învăța câte ceva din html, css și js. Din păcate, site-ul nu este unul tocmai
+        100% ideal pentru fluxul de poze care trebuie adăugat, dar nici din punct de vedere al codului sursă (desigur că funcționează
+        cum trebuie, dar e super încărcat). Asta ar însemna să trec pe alt framework, care desigur ar face treaba mai ușoară, dar asta
+        ar rezulta în refacerea site-ului de la zero, iar eu momentan nu am timpul necesar de a mă ocupa de acest lucru. </a> <br>
+        <a class="Montserrat-600" style="font-size: 16px;">Așadar, „arhivarea” site-ului ar fi cea mai bună soluție! (Și nu, nu înseamnă
+          că se va termina și cu pagina de Instagram, doar că postările după cum ați văzut nu vor mai fi zilnice). </a><br>
+          <a class="Montserrat-600" style="font-size: 16px;">Noile evenimente, dar și poze de la ele (+trimise de voi) vor fi încărcate undeva, 
+          iar mai apoi postate pe canalul de anunțuri al grupului de WhatsApp (toate evenimentele), cât și pe story pe pagina de
+          Instagram (doar evenimente din Suceava).</a>
+
+        
     </div>
 
+    <p class="Poppins-700 aligncen" style="margin-bottom: 10px; font-size: 20px;"> Cheers! </p>
+    
     <!-- FOOTER -->
+
     <div class="footer-container">
       <div class="footer">
         <div class="footer-heading footer-1">
@@ -169,11 +139,14 @@
           Toate drepturile rezervate.
         </p>
         <a
-          href="/mainmenu.html"
+          
           class="footer-logo"
           style="margin-right: 30px"
         ></a>
       </div>
     </div>
+    <script src="/scripts/js/nav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </body>
 </html>
